@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font size: 10px; 
+    font-family:  'Source Sans Pro', sans-serif;
+}
+
+
+:root{
+    /* Paleta de colores */
+--azul1: 345FB4;
+--azul2: 6789CA;
+--negro: 313131;
+--gris1: 777777;
+--gris2: A5A5A5; 
+
+/* tamaños de fuentes*/
+--size-h1: 3.4rem;
+--size-h2: 2.6rem;
+--size-h3: 2rem;
+--size-parrafo: 1.6rem;
+
+}
+
+/*Definicion secciones*/
+
+section{
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
